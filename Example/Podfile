@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'SunSearchBar_Example' do
+
+  pod 'YYKit'
+  
+  pod 'SunSearchBar', :path => '../'
+
+  target 'SunSearchBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
